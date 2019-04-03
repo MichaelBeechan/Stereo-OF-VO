@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="libviso2" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/Michael/libviso2/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/Michael/libviso2/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/Michael/libviso2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/Michael/libviso2/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/Michael/libviso2/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/Michael/libviso2/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/Michael/libviso2/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/Michael/libviso2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/Michael/libviso2/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/Michael/libviso2/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/Michael/libviso2/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/Michael/libviso2/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/Michael/libviso2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/Michael/libviso2/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/Michael/libviso2/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="viso2">
+         <Option output="/home/Michael/libviso2/build/viso2" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/Michael/libviso2/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/Michael/libviso2/src" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/Michael/libviso2/build/Makefile&quot;  VERBOSE=1 viso2" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/Michael/libviso2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/Michael/libviso2/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/Michael/libviso2/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="viso2/fast">
+         <Option output="/home/Michael/libviso2/build/viso2" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/Michael/libviso2/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/Michael/libviso2/src" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/Michael/libviso2/build/Makefile&quot;  VERBOSE=1 viso2/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/Michael/libviso2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/Michael/libviso2/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/Michael/libviso2/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/Michael/libviso2/src/demo.cpp">
+         <Option target="viso2"/>
+      </Unit>
+      <Unit filename="/home/Michael/libviso2/src/filter.cpp">
+         <Option target="viso2"/>
+      </Unit>
+      <Unit filename="/home/Michael/libviso2/src/filter.h">
+         <Option target="viso2"/>
+      </Unit>
+      <Unit filename="/home/Michael/libviso2/src/matcher.cpp">
+         <Option target="viso2"/>
+      </Unit>
+      <Unit filename="/home/Michael/libviso2/src/matcher.h">
+         <Option target="viso2"/>
+      </Unit>
+      <Unit filename="/home/Michael/libviso2/src/matrix.cpp">
+         <Option target="viso2"/>
+      </Unit>
+      <Unit filename="/home/Michael/libviso2/src/matrix.h">
+         <Option target="viso2"/>
+      </Unit>
+      <Unit filename="/home/Michael/libviso2/src/reconstruction.cpp">
+         <Option target="viso2"/>
+      </Unit>
+      <Unit filename="/home/Michael/libviso2/src/reconstruction.h">
+         <Option target="viso2"/>
+      </Unit>
+      <Unit filename="/home/Michael/libviso2/src/triangle.cpp">
+         <Option target="viso2"/>
+      </Unit>
+      <Unit filename="/home/Michael/libviso2/src/triangle.h">
+         <Option target="viso2"/>
+      </Unit>
+      <Unit filename="/home/Michael/libviso2/src/viso.cpp">
+         <Option target="viso2"/>
+      </Unit>
+      <Unit filename="/home/Michael/libviso2/src/viso.h">
+         <Option target="viso2"/>
+      </Unit>
+      <Unit filename="/home/Michael/libviso2/src/viso_mono.cpp">
+         <Option target="viso2"/>
+      </Unit>
+      <Unit filename="/home/Michael/libviso2/src/viso_mono.h">
+         <Option target="viso2"/>
+      </Unit>
+      <Unit filename="/home/Michael/libviso2/src/viso_stereo.cpp">
+         <Option target="viso2"/>
+      </Unit>
+      <Unit filename="/home/Michael/libviso2/src/viso_stereo.h">
+         <Option target="viso2"/>
+      </Unit>
+      <Unit filename="/home/Michael/libviso2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
