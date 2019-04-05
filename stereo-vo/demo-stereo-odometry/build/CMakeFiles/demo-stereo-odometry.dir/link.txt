@@ -1,0 +1,1 @@
+/usr/bin/c++    -O3 -mtune=native -msse2 -msse3 -mssse3   CMakeFiles/demo-stereo-odometry.dir/demo-main.o  -o demo-stereo-odometry -rdynamic -lstereo-odometry 

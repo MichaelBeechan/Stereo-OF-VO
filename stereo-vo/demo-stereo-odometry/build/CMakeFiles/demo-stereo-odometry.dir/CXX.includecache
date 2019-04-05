@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/Michael/stereo-vo/demo-stereo-odometry/demo-main.cpp
+libstereo-odometry.h
+-
+mrpt/hwdrivers/CCameraSensor.h
+-
+mrpt/utils/CConfigFile.h
+-
+mrpt/utils/CConfigFileMemory.h
+-
+mrpt/otherlibs/tclap/CmdLine.h
+-
+mrpt/version.h
+-
+
